@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".ReviewFragment">
+
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:isIndicator="false"
+        android:layout_gravity="top|center"
+        android:numStars="5"
+        android:stepSize="1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/commentBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:width="270dp"
+            android:ems="10"
+            android:hint="@string/comment_here"
+            android:inputType="textPersonName"
+            android:textColor="@color/colorWhite"
+            android:textColorHint="@color/colorWhite" />
+        <Button
+            android:id="@+id/commentButton"
+            android:background="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:textColor="@android:color/black"
+            android:text="@string/submit" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cmt"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">Project</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="signup">SIGNUP</string>
+    <string name="dispaly">Button</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="menuLogin">Login</string>
+    <string name="menuLogout">Logout</string>
+    <string name="logIn">LOGIN</string>
+    <string name="already_have_an_account">Already Have An Account?</string>
+    <string name="logo">LOGO</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Hostels Info</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="hostel_name">Hostel Name</string>
+    <string name="rating">(4.3)</string>
+    <string name="address">Address of the hostel goes here</string>
+    <string name="read_more"><![CDATA[Read More >>]]></string>
+    <string name="hostel_image">TODO</string>
+    <string name="start_image">TODO</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="image_of_the_hostel">Image of the hostel</string>
+    <string name="hosteldata_name">hostelData_name</string>
+    <string name="hosteldata_hostel_address">hostelData_hostel_address</string>
+    <string name="hosteldata_rooms_available">Rooms Available</string>
+    <string name="hosteldata_no_of_rooms">hostelData_no_of_rooms</string>
+    <string name="hosteldata_floors_available">Floors Available</string>
+    <string name="hosteldata_no_of_floors">hostelData_no_of_floors</string>
+    <string name="hosteldata_extra_facilities">Extra Facilities</string>
+    <string name="hosteldata_extra_details">hostelData_extra_details</string>
+    <string name="actionSignup">Signup</string>
+    <string name="go_to_home">Go to Home</string>
+    <string name="hosteldata_details">Other Details</string>
+    <string name="hosteldata_rooms_availble">Rooms Availble</string>
+    <string name="hosteldata_owner_contact_email">Owner Contact Email:</string>
+    <string name="hosteldata_address">Address:</string>
+    <string name="item_image">Item Image</string>
+    <string name="item_name">Item Name</string>
+    <string name="item_rating">Item Rating</string>
+    <string name="list_heading">List Heading</string>
+    <string name="item_rating_star">TODO</string>
+    <string name="comments">Comments</string>
+    <string name="comment">Comment</string>
+    <string name="submit">submit</string>
+    <string name="name">name</string>
+    <string name="rate">Rate</string>
+    <string name="save">Save</string>
+    <string name="comment_here">Comment here</string>
+    <string name="manage_hostels">Manage Hostels</string>
+    <string name="add_hostel">Add Hostel</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="item_city">Item City</string>
+    <string name="item_extras">Item Extras</string>
+    <string name="items_floors">Items Floors</string>
+    <string name="item_rooms">Item Rooms</string>
+    <string name="item_address">Item Address</string>
+    <string name="login">Login</string>
+    <string name="nav_signup">Signup</string>
+    <string name="admin_checkBox">Admin</string>
+    <string name="user_checkBox">User</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="cnic_number">CNIC Number</string>
+    <string name="checkbox_textview">Register as Admin</string>
+    <string name="profile_name">Name</string>
+    <string name="profile_email"><![CDATA[<email@example.com]]></string>
+    <string name="profile_phone">03111111111</string>
+    <string name="profile_password">12346</string>
+    <string name="edit_profile_name">Enter the name</string>
+    <string name="email_edittext">Enter Email</string>
+    <string name="phone_edittext">Enter Phone</string>
+    <string name="change_password">Change Password</string>
+    <string name="new_password">New Password</string>
+    <string name="profile_go_back">Go Back</string>
+    <string name="old_password">Old Password</string>
+    <string name="edit_password">Edit Password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="profile_go_to_home">Go to Home</string>
+    <string name="find">Find</string>
+    <string-array name="cities">
+        <item>Lahore</item>
+        <item>Islamabad</item>
+        <item>Faisalabad</item>
+        <item>Sialkot</item>
+        <item>Multan</item>
+    </string-array>
+</resources>

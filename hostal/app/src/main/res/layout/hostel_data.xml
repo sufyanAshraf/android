@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    tools:layout_editor_absoluteY="81dp">
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/hostelData_image"
+                android:layout_width="match_parent"
+                android:layout_height="195dp"
+                android:contentDescription="@string/image_of_the_hostel"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/busy_indicator" />
+
+            <TextView
+                android:id="@+id/hostelData_hostelName"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="@string/hosteldata_name"
+                android:textColor="@color/colorWhite"
+                android:textSize="24sp" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:orientation="horizontal">
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/lable_roomsAvailible"
+                            android:layout_width="135dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="@string/hosteldata_rooms_availble"
+                            android:textColor="@color/colorWhite" />
+
+                        <TextView
+                            android:id="@+id/hostelData_no_rooms"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:text="@string/hosteldata_no_of_rooms"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:id="@+id/lable_floorAvailible"
+                            android:layout_width="131dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="@string/hosteldata_floors_available"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/hostelData_no_floors"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:text="@string/hosteldata_no_of_floors"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TextView
+                            android:id="@+id/lable_extraFac"
+                            android:layout_width="134dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="@string/hosteldata_extra_facilities"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+
+                        <TextView
+                            android:id="@+id/hostelData_extras"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:text="@string/hosteldata_extra_details"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:id="@+id/lable_adress"
+                            android:layout_width="161dp"
+                            android:layout_height="30dp"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:text="@string/hosteldata_address"
+                            android:textColor="@color/colorWhite" />
+
+                        <TextView
+                            android:id="@+id/hostelData_hostelAddress"
+                            android:layout_width="wrap_content"
+                            android:layout_height="30dp"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:text="@string/hosteldata_hostel_address"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="14sp" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" >
+
+                        <TextView
+                            android:id="@+id/lable_ownerPhone"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1"
+                            android:gravity="center_vertical"
+                            android:paddingLeft="15dp"
+                            android:paddingTop="10dp"
+                            android:text="@string/hosteldata_owner_contact_email"
+                            android:textColor="@color/colorWhite" />
+
+                        <TextView
+                            android:id="@+id/hostelData_ownerContact"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_weight="2"
+                            android:gravity="center_vertical"
+                            android:paddingTop="10dp"
+                            android:textColor="@color/colorWhite" />
+                    </TableRow>
+                </TableLayout>
+
+            </LinearLayout>
+            <fragment
+                android:id="@+id/commentFragment"
+                android:layout_marginTop="10dp"
+                android:name="como.example.noman.project.ReviewFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:layout="@layout/fragment_review"/>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
